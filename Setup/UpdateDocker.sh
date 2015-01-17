@@ -1,5 +1,6 @@
 
-echo "Creating Docker Image"
+echo "- Creating Docker Image"
 docker build -t 'virtual_machine' - < Dockerfile
-echo "Retrieving Installed Docker Images"
+echo "- Retrieving Installed Docker Images"
 docker images
+echo "Docker Done"
