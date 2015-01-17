@@ -19,7 +19,7 @@ apt-get install npm
 echo "NodeJS setup Complete"
 
 ###########################
-# Start Docker 
+# Start Docker
 ###########################
 chmod 777 ../API/DockerTimeout.sh
 chmod 777 ../API/Payload/script.sh
@@ -27,4 +27,4 @@ chmod 777 ../API/Payload/javaRunner.sh
 chmod 777 UpdateDocker.sh
 
 service docker.io restart
-./UpdateDocker.sh 
+./UpdateDocker.sh

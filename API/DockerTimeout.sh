@@ -1,4 +1,5 @@
 #!/bin/bash
+echo " ++ Entering DockerTimeout"
 set -e
 
 to=$1

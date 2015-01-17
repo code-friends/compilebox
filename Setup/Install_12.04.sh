@@ -34,8 +34,9 @@ apt-get install npm
 chmod 777 ../API/DockerTimeout.sh
 chmod 777 ../API/Payload/script.sh
 chmod 777 ../API/Payload/javaRunner.sh
-chmod 777 UpdateDocker.sh
+chmod 777 /Setup/UpdateDocker.sh
 
-./UpdateDocker.sh
+echo "---- SETUP DOCKER"
+source /Setup/UpdateDocker.sh
 echo 'DONE';
 
